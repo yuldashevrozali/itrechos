@@ -1,0 +1,391 @@
+.home-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #070706;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.home-header .header-menu a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header-span {
+    display: flex;
+    color: white;
+    gap: 10px;
+    align-items: center;
+}
+
+.home-body {
+    width: 100%;
+    background-image: url(./assets/Background.png);
+}
+
+.home-body {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    animation: moveStars 10s linear infinite, twinkle 2s infinite;
+}
+
+.star:nth-child(2) {
+    width: 4px;
+    height: 4px;
+    left: 20%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+
+.star:nth-child(3) {
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    animation-duration: 12s;
+    animation-delay: 4s;
+}
+
+.star:nth-child(4) {
+    width: 3px;
+    height: 3px;
+    left: 70%;
+    animation-duration: 7s;
+    animation-delay: 1s;
+}
+
+.star:nth-child(5) {
+    width: 2px;
+    height: 2px;
+    left: 90%;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+@keyframes moveStars {
+    0% {
+        top: 100%;
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+        opacity: 0;
+    }
+}
+
+.blocks {
+    display: flex;
+    gap: 6.5%;
+    margin-left: 18%;
+    padding-bottom: 3.5%;
+}
+
+.home-left-top {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 34%;
+    color: #7F27FF;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+.home-left-top img {
+    width: 40px;
+    height: 3px;
+    border-radius: 8px;
+}
+
+.block-left h1 {
+    width: 550px;
+    letter-spacing: 5px;
+    font-size: 65px;
+}
+
+.home-left-top h1 {
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+
+.block-left span {
+    background-color: #FF8911;
+    color: white;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.block-left p {
+    width: 450px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#btn1 {
+    width: 242px;
+    height: 46px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    border-radius: 9px;
+}
+
+#btn2 {
+    display: flex;
+    width: 242px;
+    height: 46px;
+    color: white;
+    border: none;
+    color: black;
+    background-color: transparent;
+    align-items: center;
+    font-size: 21px;
+    gap: 5px;
+}
+
+#btn2 svg {
+    font-size: 30px;
+    color: #FF8911;
+}
+
+#btn1:hover,
+#btn2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.header-menu a:hover {
+    color: #FF8911;
+    transition: color 0.3s ease;
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.home-left-top h1,
+.block-left h1 {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: slideIn 5s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.block-left p {
+    position: relative;
+    animation: moveText 5s linear infinite alternate;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.block-right {
+    width: 716px;
+    height: 733px;
+    background: url(./assets/Image.png);
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+}
+
+@media screen and (max-width: 1440px) {
+    .blocks {
+        gap: 5%;
+        margin-left: 10%;
+        padding-bottom: 2%;
+    }
+
+    .block-left h1 {
+        font-size: 50px;
+        width: 450px;
+    }
+
+    .block-left p {
+        width: 400px;
+    }
+
+    .block-right {
+        width: 600px;
+        height: 650px;
+    }
+
+    .home-left-top h1 {
+        font-size: 18px;
+    }
+
+    #btn1, #btn2 {
+        width: 200px;
+    }
+
+    .home-header {
+        height: 45px; 
+    }
+
+    .header-menu a {
+        font-size: 14px; 
+    }
+
+    .header-span p {
+        font-size: 12px; 
+    }
+}
+
+.right-block1 {
+    background-color: #fff;
+    width: 226px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 5%;
+    left: -16%;
+    opacity: 0; 
+}
+
+.right-block1 p {
+    color: #ABABAB;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.right-block1 h1 {
+    margin-top: -7%;
+}
+
+.right-block1 svg {
+    color: #ff3729;
+}
+
+.right-block2 {
+    background-color: #fff;
+    width: 203px;
+    height: 134px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    right: -12%;
+    border-radius: 8px;
+    top: 40%;
+    opacity: 0; 
+}
+
+.right-block2 h1 {
+    color: #FF8911;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: -3%;
+}
+
+.right-stars {
+    display: flex;
+    align-items: center;
+    margin-top: -8%;
+    gap: 5px;
+}
+
+.right-block2 svg {
+    color: #FFD600;
+    font-size: 24px;
+}
+
+.right-block1, .right-block2 {
+    opacity: 0;
+    animation: none; 
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.right-block1, .right-block2 {
+    opacity: 1;
+    animation: slideIn 1.5s forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

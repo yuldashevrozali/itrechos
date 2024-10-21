@@ -1,5 +1,5 @@
 import group from "../../assets/group.png";
-import icon from "../../assets/icon.png";
+import iconbu from "../../assets/icon.png";
 import icon2 from "../../assets/icon2.png";
 import icon3 from "../../assets/icon3.png";
 import right from "../../assets/right.png";
@@ -52,7 +52,7 @@ function Services() {
         </div>
         <div className="services-right">
           <div className="services-right-block srb1">
-            <img src={icon} alt="" />
+            <img src={iconbu} alt="" />
             <h2>Network solution</h2>
             <p>
               Assertively streamline interactive interfaces after value-added

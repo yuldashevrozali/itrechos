@@ -1,5 +1,6 @@
 .Choose{
     margin-top: 50px;
+    display: flex;
 }
 
 .choose-right h1{

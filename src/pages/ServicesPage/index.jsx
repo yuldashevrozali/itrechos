@@ -3,7 +3,7 @@ import icon2 from "../../assets/icon2.png";
 import iconbu from "../../assets/iconbu.png";
 import icon3 from "../../assets/icon3.png";
 import right from "../../assets/right.png";
-import "./index.css";
+import "./Services.css";
 function Services() {
   return (
     <div className="services">

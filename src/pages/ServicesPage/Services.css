@@ -105,10 +105,11 @@
     margin-top: -5%;
 }
 
-.services-right{
-    margin-left: -55%;
+.services-right {
     position: relative;
+    margin-left: -55%;
 }
+
 
 
 .services-right-block img{
@@ -139,18 +140,19 @@
 /* Tasvirlar uchun oddiy kirib kelish animatsiyasi */
 @keyframes slideIn {
     0% {
-      opacity: 0;
-      transform: translateX(-50px);
+        opacity: 0;
+        transform: translateX(-50px);
     }
     50% {
-      opacity: 1;
-      transform: translateX(0);
+        opacity: 1;
+        transform: translateX(0);
     }
     100% {
-      opacity: 0;
-      transform: translateX(-50px);
+        opacity: 1; /* Element ko'rinishda qoladi */
+        transform: translateX(0);
     }
 }
+
 
 .srb1, .srb2, .srb3, .srb4 {
     animation: slideIn 12s ease infinite; 

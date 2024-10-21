@@ -610,7 +610,7 @@
   }
   
  
-  h1 {
+  .homepage, .About-us h1 {
     animation: slideIn 1s ease-in-out forwards;
     opacity: 0;
   }
@@ -666,11 +666,11 @@
   }
   
   
-  img {
+  .homepage , .About-us img {
     transition: transform 0.5s ease;
   }
   
-  img:hover {
+  .homepage , .About-us  img:hover {
     transform: scale(1.1);
   }
 

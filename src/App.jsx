@@ -1,4 +1,5 @@
 import "./App.css";
+import Choose from "./pages/Choose";
 import Homepage from "./pages/HomePage";
 import Services from "./pages/ServicesPage";
 
@@ -10,6 +11,7 @@ function App() {
       <div className="main">
         <Homepage />
         <Services></Services>
+        <Choose />
       </div>
     </>
   );

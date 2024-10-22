@@ -1,9 +1,201 @@
+
+.syne-uniquifier {
+  font-family: "Syne", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 .Choose{
     margin-top: 50px;
     display: flex;
+
+    gap: 100px;
+    margin-left: 3%;
 }
 
 .choose-right h1{
     color: black;
     font-size: 46px;
+    width: 500px;
+    letter-spacing: 1px;
+}
+
+.choose-right p:first-of-type {
+    color: #7F27FF; 
+    margin-bottom: -1%;
+    margin-top: 5px;
+
+}
+.choose-right p{
+    width: 630px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+}
+
+.stroll h1{
+    font-size: 26px;
+    letter-spacing: 0px;
+}
+
+.stroll{
+    width: 590px;
+    display: flex;
+    align-items: center;
+}
+
+.stroll img{
+    width: 18px;
+    height: 9px;
+}
+
+
+.stroll-hr{
+    width: 520px;
+    height: 1px;
+    background-color: #FF8911;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Buisness */
+
+.buisness{
+    width: 80%;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.buisness h1{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.buisness-block{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.buisness-block p{
+    width: 546px;
+    line-height: 1.25;
+    margin-top: -10px;
+    margin-right: 75px;
+}
+
+.projects{
+    background-color: #070706;
+    color: white;
+}
+
+.projects-blocks{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects-blocks h1{
+    width: 100%;
+    font-size: 46px;
+    letter-spacing: 3px;
+    width: 39%;
+}
+
+.pr-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-bottom: 25px;
+    margin-top: 70px;
+}
+
+#pr1{
+    color: #FF8911;
+    padding-top: 7%;
+   
+}
+
+
+.projects-blocks p{
+    font-family: sans-serif;
+    width: 48%;
+}
+
+.projects-block{
+    width: 416px;
+    height: 400px;
+    position: relative;
+}
+
+.tech1{
+    background: url(../../assets/tech1.png);
+}
+
+.tech2{
+    background: url(../../assets/tech2.png);
+}
+.tech2 .project-info h1{
+    color: #FF8911;
+}
+.tech3{
+    background: url(../../assets/tech3.png);
+}
+.tech4{
+    background: url(../../assets/tech4.png);
+}
+.tech5{
+    background: url(../../assets/tech5.png);
+}
+
+.tech6 h1{
+    font-size: 24px;
+    width: 100%;
+    color: #070706;
+    margin-top: 54%;
+    text-align: center;
+}
+
+.tech6 img{
+    margin-left: 75%;
+    margin-top: 10%;
+}
+
+.tech6{
+    background-color: #FF8911;
+}
+
+
+.project-info h1{
+    width: 100%;
+    letter-spacing: 0px;
+    font-size: 24px;
+    color: #070706;
+    margin-bottom: -3%;
+    margin-top: -1%;
+}
+
+.project-info{
+    width: 368px;
+    height: 119px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 25px;
+    left: 23px;
+    padding-left: 20px;
+}
+
+.project-info #tech1{
+    color: #7F27FF;
+    line-height: 0.8;
+    font-size: 16px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 550;
+    padding-top: 5px;
+}
+
+.project-info p{
+    width: 100%;
+    color: #070706;
+    font-family: sans-serif;
 }

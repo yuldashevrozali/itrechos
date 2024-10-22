@@ -1,7 +1,11 @@
-import React from 'react'
+import Hero from '../../components/hero'
+import Navbar from '../../components/navbar'
 
 export default function Blog() {
   return (
-    <div>Blog</div>
+    <div>
+    <Navbar />
+    <Hero title="Our blogs" text="Blogs" />
+    </div>
   )
 }

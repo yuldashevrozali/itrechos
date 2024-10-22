@@ -1,0 +1,21 @@
+.hero-nav1 {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #4833D9;
+
+}
+h1 {
+color: #fff;
+font-family: Syne;
+font-size: 64px;
+font-weight: 700;
+line-height: 72px;
+text-align: center;
+
+}
+.hero-nav2 {
+    text-align: center;
+}

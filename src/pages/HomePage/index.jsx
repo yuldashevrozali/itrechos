@@ -48,10 +48,10 @@ function Homepage() {
           </div>
           <div className="header-menu">
             <Link to="/">Home</Link>
-            <Link to="services">Services</Link>
-            <Link to="pages">Pages</Link>
-            <Link to="blog">Blog</Link>
-            <Link to="concat">Contact</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/pages">Pages</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/concat">Contact</Link>
             <div className="header-span">
               <FaPhoneAlt />
               <p>+49 30 9846565</p>

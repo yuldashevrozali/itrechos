@@ -6,15 +6,15 @@
 body {
   font-family: sans-serif;
 }
-#navbar{
-  background-color: #4833D9;
+#navbar {
+  background-color: #4833d9;
   border-bottom: 1px solid grey;
 }
 span {
   font-family: Syne;
-font-size: 20px;
-font-weight: 700;
-line-height: 28px;
-text-align: center;
-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  color: white;
 }

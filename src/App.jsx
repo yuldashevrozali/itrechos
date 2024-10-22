@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./pages/Home"
-import Services from "./pages/ServicesPage"
+import Services from './pages/Services/index'
 import Pages from './pages/PagesPage'
 import Blog from './pages/BlogPage'
 import Concat from './pages/ContactPage'

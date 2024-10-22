@@ -1,7 +1,13 @@
-import React from 'react'
+import Footer from '../../components/footer'
+import Navbar from '../../components/navbar'
+import Hero from '../../components/hero'
 
 export default function Page() {
   return (
-    <div>Page</div>
+    <div>
+     <Navbar />
+      <Hero title="Our page" text="Page" />
+      <Footer />
+    </div>
   )
 }

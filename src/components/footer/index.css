@@ -1,0 +1,32 @@
+.footer-container {
+  width: 100%;
+  height: 554px;
+  background-color: #191c26;
+  color: #ffffff;
+
+}
+.nav-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+  opacity: 70%;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 30px;
+}
+img {
+  color: #ffffff;
+}
+.footer-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}

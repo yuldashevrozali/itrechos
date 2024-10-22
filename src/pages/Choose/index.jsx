@@ -11,6 +11,7 @@ import IN from "../../assets/IN.png";
 import TW from "../../assets/TW.png";
 import rating from "../../assets/rating.png";
 import right2 from "../../assets/right2.png";
+import right from "../../assets/right.png";
 import Avatar from "../../assets/Avatar.png";
 import "./index.css";
 
@@ -202,15 +203,22 @@ function Choose() {
       </div>
 
       <div className="Our-team">
-        <p>Our Team</p>
+      <div className="container-fluid px-5">
+      <div className="container" style={{ paddingLeft: '10%', paddingRight: '10%' }}>
+      <div className="text-center">
+        <p id="ot1">Our Team</p>
         <h1>Our Professional Team member</h1>
-        <div className="our-team-block">
-          <img src={FB} alt="" />
-          <img src={IN} alt="" />
-          <img src={TW} alt="" />
+        <a href="#"><img src={right} alt="" />VIEW ALL</a>
+        <div className="d-flex justify-content-between persn our-team-block">
+          <img src={FB} alt="Facebook" />
+          <img src={IN} alt="Instagram" />
+          <img src={TW} alt="Twitter" />
         </div>
         <h1>Eleanor Pena</h1>
         <p>Senior Developer</p>
+      </div>
+    </div>
+    </div>
       </div>
       <div className="Testiominal">
         <p>Testimonial</p>

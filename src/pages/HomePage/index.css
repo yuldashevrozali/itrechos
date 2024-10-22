@@ -122,12 +122,17 @@
 .block-left h1 {
     width: 550px;
     letter-spacing: 5px;
-    font-size: 65px;
+    font-size: 60px;
+    font-family: "Syne";
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 700;
+    /* margin-bottom: 25px; */
 }
 
 .home-left-top h1 {
     letter-spacing: 1px;
-    font-size: 21px;
+    font-size: 24px;
 }
 
 .block-left span {
@@ -152,7 +157,7 @@
     height: 46px;
     background-color: black;
     color: white;
-    font-size: 21px;
+    font-size: 24px;
     border-radius: 9px;
 }
 
@@ -165,7 +170,7 @@
     color: black;
     background-color: transparent;
     align-items: center;
-    font-size: 21px;
+    font-size: 24px;
     gap: 5px;
 }
 
@@ -239,7 +244,7 @@
     }
 
     .block-left h1 {
-        font-size: 50px;
+        font-size: 45px;
         width: 450px;
     }
 
@@ -253,7 +258,7 @@
     }
 
     .home-left-top h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #btn1, #btn2 {
@@ -265,11 +270,11 @@
     }
 
     .header-menu a {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .header-span p {
-        font-size: 12px; 
+        font-size: 14px; 
     }
 }
 
@@ -317,7 +322,7 @@
 
 .right-block2 h1 {
     color: #FF8911;
-    font-size: 32px;
+    font-size: 36px;
     letter-spacing: 2px;
     margin-bottom: -3%;
 }
@@ -325,13 +330,14 @@
 .right-stars {
     display: flex;
     align-items: center;
-    margin-top: -8%;
+    margin-top: -10%;
     gap: 5px;
 }
 
 .right-block2 svg {
     color: #FFD600;
     font-size: 24px;
+    margin-top: -3%;
 }
 
 .right-block1, .right-block2 {
@@ -404,7 +410,7 @@
 
 .home-footer h1{
     color: #FF8911;
-    font-size: 46px;
+    font-size: 45px;
     margin-bottom: -2%;
 }
 
@@ -424,7 +430,7 @@
 
 @media screen and (max-width: 768px) {
     .block-left h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     #btn1, #btn2 {

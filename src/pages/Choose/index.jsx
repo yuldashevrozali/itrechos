@@ -11,7 +11,7 @@ import IN from "../../assets/IN.png";
 import TW from "../../assets/TW.png";
 import rating from "../../assets/rating.png";
 import right2 from "../../assets/right2.png";
-import right from "../../assets/right.png";
+import ar2 from "../../assets/ar2.png";
 import Avatar from "../../assets/Avatar.png";
 import "./index.css";
 
@@ -203,39 +203,86 @@ function Choose() {
       </div>
 
       <div className="Our-team">
-      <div className="container-fluid px-5">
-      <div className="container" style={{ paddingLeft: '10%', paddingRight: '10%' }}>
-      <div className="text-center">
-        <p id="ot1">Our Team</p>
-        <h1>Our Professional Team member</h1>
-        <a href="#"><img src={right} alt="" />VIEW ALL</a>
-        <div className="d-flex justify-content-between persn our-team-block">
-          <img src={FB} alt="Facebook" />
-          <img src={IN} alt="Instagram" />
-          <img src={TW} alt="Twitter" />
+        <div className="container-fluid px-5">
+          <div
+            className="container"
+            style={{ paddingLeft: "10%", paddingRight: "10%" }}
+          >
+            <div className="text-center ot1">
+              <p id="ot1">Our Team</p>
+              <h1>Our Professional Team member</h1>
+              <a href="#">
+                <img src={ar2} alt="" />
+                VIEW ALL
+              </a>
+              <div className="ot-blocks">
+                <div className="ot-block">
+                  <div className="d-flex justify-content-between persn our-team-block">
+                    <img src={FB} alt="Facebook" />
+                    <img src={IN} alt="Instagram" />
+                    <img src={TW} alt="Twitter" />
+                  </div>
+                  <h2>Eleanor Pena</h2>
+                  <p>Senior Developer</p>
+                </div>
+
+                <div className="ot-block">
+                  <div className="d-flex justify-content-between persn persn2 our-team-block">
+                    <img src={FB} alt="Facebook" />
+                    <img src={IN} alt="Instagram" />
+                    <img src={TW} alt="Twitter" />
+                  </div>
+                  <h2>Eleanor Pena</h2>
+                  <p>Senior Developer</p>
+                </div>
+                <div className="ot-block">
+                  <div className="d-flex justify-content-between persn persn3 our-team-block">
+                    <img src={FB} alt="Facebook" />
+                    <img src={IN} alt="Instagram" />
+                    <img src={TW} alt="Twitter" />
+                  </div>
+                  <h2>Eleanor Pena</h2>
+                  <p>Senior Developer</p>
+                </div>
+                <div className="ot-block">
+                  <div className="d-flex justify-content-between persn persn4 our-team-block">
+                    <img src={FB} alt="Facebook" />
+                    <img src={IN} alt="Instagram" />
+                    <img src={TW} alt="Twitter" />
+                  </div>
+                  <h2>Eleanor Pena</h2>
+                  <p>Senior Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <h1>Eleanor Pena</h1>
-        <p>Senior Developer</p>
-      </div>
-    </div>
-    </div>
       </div>
       <div className="Testiominal">
-        <p>Testimonial</p>
+      <div className="container">
+  <div className="row justify-content-center">
+    <div className="col-12 col-md-8"> {/* Katta ekranlarda 8/12, kichik ekranlarda 12/12 */}
+      <div className="testimonial-container">
+        <p id="pm1">Testimonial</p>
         <h1>Trusted by more than 1000+ company’s around the world</h1>
-        <div className="testimional-block">
+        <div className="testimonial-block">
           <img src={rating} alt="" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quisque
             amet habitant integer pretium hendrerit enim. Lobortis sed phasellus
             auctor
           </p>
-          <div className="testimional-span">
+          <div className="testimonial-span">
             <img src={Avatar} alt="" />
             <h3>Paula Brooks</h3>
             <p>Business Analyst</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </>
   );
